@@ -112,7 +112,7 @@ const Mintnfts = async (wallet: string, projectId: number) => {
       throw new Error("Minting NFTs failed"); // Handle unexpected response
     }
   } catch (err) {
-    console.error(`Mintnfts error: ${err.message}`);
+    console.error(`Mintnfts error`);
     return false; // Return false to indicate failur
   }
 };

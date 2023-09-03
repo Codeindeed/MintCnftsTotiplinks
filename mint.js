@@ -119,7 +119,7 @@ const Mintnfts = (wallet, projectId) => __awaiter(void 0, void 0, void 0, functi
         }
     }
     catch (err) {
-        console.error(`Mintnfts error: ${err.message}`);
+        console.error(`Mintnfts error`);
         return false; // Return false to indicate failur
     }
 });
