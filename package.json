@@ -1,0 +1,16 @@
+{
+  "name": "superteambounty",
+  "version": "1.0.0",
+  "description": "a superteamEarnBounty Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "node mint.js",
+    "start": "tsc -w"
+  },
+  "author": "Alex Favour",
+  "license": "ISC",
+  "dependencies": {
+    "@tiplink/api": "^0.1.2",
+    "dotenv": "^16.3.1"
+  }
+}
