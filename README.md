@@ -16,8 +16,8 @@ Create an Environmental variable with
 <!-- Nft picture url  -->
 - **NFT_URL=**
 
-- run npm start to compile to js
-- then run npm test to run the code.
+ **run npm start to compile to js**
+ **then run npm test to run the code.**
 
 - should you run the code and an error is returned during minting change the createdCollection value to true and then input the number of remaining nfts to be minted.
 
