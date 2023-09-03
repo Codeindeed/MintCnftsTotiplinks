@@ -119,9 +119,9 @@ const Mintnfts = async (wallet: string, projectId: number) => {
 
 // Mint nfts to Collection and push out tiplinks to claim into a new file!
 async function Mintall() {
-  // Create ProjectId if you have Project Id change value to true and Input Project ID
+  // Create ProjectId,
+  //  if you have Project Id change value to true and Input Project ID
   const projectId = await Createcollection({ value: true, projectId: 19 });
-
   //Create Wallets or Generate tiplink Wallets
   const wallets: Wallet[] = await Createwallet();
   const links: string[] = [];
